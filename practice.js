@@ -64,13 +64,16 @@ favoriteThings.book = 'Harry Potter'
 */
 
 //Code here
-
+let backPack = {}
+let item = 'firstPocket'
+backPack[item] = "chapstick"
+backPack.color = 'blue'
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+console.log(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -99,7 +102,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name = 'Bryan G. Smith'
+user2.email = 'bryan.smith@devmounta.in'
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
