@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me = {
+  name: 'john',
+  age: 53,
+}
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,21 +28,31 @@
 */
 
 //Code here
+let favoriteThings = {
+  band: 'Van Halen',
+  food: 'pizza',
+  person: 'Nancy',
+  book: 'Ready Player One',
+  movie: 'Shawshank Redemption',
+  holiday: 'Christmas',
 
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
+favoriteThings.car = 'Toyota Corolla'
+favoriteThings.brand = 'Apple'
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
