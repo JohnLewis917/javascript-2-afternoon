@@ -122,8 +122,8 @@ const methodCollection = {}
 */
 
 //Code Here
-methodCollection.alertHello = function () {alert "Hello"},
-methodCollection.logHello = function () {console.log 'hello'},
+methodCollection.alertHello = function () {alert('hello')},
+methodCollection.logHello = function () {console.log ('hello')},
 /*
   Now call your alertHello and logHello methods.
 */
